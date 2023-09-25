@@ -6,8 +6,9 @@ metadata:
   annotations:
     backstage.io/kubernetes-id: foo-1017
     backstage.io/kubernetes-namespace: default
-    backstage.io/techdocs-ref: dir:.
     github.com/project-slug: aliok-test/foo-1017
+    backstage.io/techdocs-ref: url:https://github.com/aliok-test/foo-1017
+    quay.io/repository-slug: aliok-rh/foo-1017
 spec:
   type: api
   system: system:default/janus-idp
