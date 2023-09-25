@@ -5,6 +5,7 @@ metadata:
   name: foo-1017
   annotations:
     backstage.io/kubernetes-id: foo-1017
+    backstage.io/kubernetes-namespace: default
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: aliok-test/foo-1017
 spec:

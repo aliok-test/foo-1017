@@ -1,0 +1,23 @@
+specVersion: 0.25.0
+name: foo-1017
+namespace: default
+runtime: node
+registry: quay.io/aliok-rh
+image: quay.io/aliok-rh/foo-1017
+imageDigest: ""
+buildpacks: []
+builder: s2i
+volumes: []
+buildEnvs: []
+envs: []
+annotations: {}
+options: {}
+labels:
+- key: backstage.io/kubernetes-id
+  value: foo-1017
+healthEndpoints:
+  liveness: /health/liveness
+  readiness: /health/readiness
+created: 2023-09-25T11:21:56.505225+03:00
+invocation:
+  format: http
